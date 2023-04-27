@@ -6,13 +6,13 @@ using WebApı.DbOperation;
 
 namespace WebApı.BookOperations.UpdateBooks
 {
-    public class UpdateBookModel
+    public class UpdateBooksCommand
     {
         private readonly BookStoreDbContext _context;
         public int BookId { get; set; }
         public UpdateBookViewModel Model { get; set; }
 
-        public UpdateBookModel(BookStoreDbContext context)
+        public UpdateBooksCommand(BookStoreDbContext context)
         {
             _context = context;
         }
@@ -34,10 +34,7 @@ namespace WebApı.BookOperations.UpdateBooks
             public string Title { get; set; }
             public int GenreId { get; set; }
 
-            public static implicit operator UpdateBookViewModel(UpdateBookModel v)
-            {
-                throw new NotImplementedException();
-            }
+          
         }
     }
 }
