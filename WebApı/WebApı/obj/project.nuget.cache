@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AOTkxOg0kDHReoAZd88sKtfXbKQjzlWQmHfgOf1gT6F6+6hxHtBsk8za093Pq0oF5tRdRPBbRMwTQFD0zJHbOA==",
+  "dgSpecHash": "LkFygWSmUbGgUof3xVzPGaZBQtSOJkER1Yq9xubqaUrYw8BuVtwBPrEeGwigfrm1b+iZuNQgA/fLeKm5asCVBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACER\\Desktop\\bookstore\\WebApı\\WebApı\\WebApı.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
