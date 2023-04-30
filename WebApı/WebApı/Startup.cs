@@ -15,6 +15,8 @@ using WebApı.DbOperation;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using AutoMapper;
+using WebApı.Middlewares;
+using WebApı.Services;
 
 namespace WebApı
 {
@@ -38,6 +40,7 @@ namespace WebApı
             });
             services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddSingleton<ILoggerService,ConsoleLogger>(); //dependecy ınjection uygulandı
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +58,7 @@ namespace WebApı
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCustomExceptionMiddle(); //pipelina customexceptionu ekledik.Endpointe gelmeden önce sıraya koymak gerek.
 
             app.UseEndpoints(endpoints =>
             {

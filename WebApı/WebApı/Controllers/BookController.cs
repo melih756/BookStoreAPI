@@ -75,8 +75,7 @@ namespace WebApı.Controllers
         {
             CreateBookCommand command = new CreateBookCommand(_context,_mapper);
 
-            try
-            {
+           
                 command.Model = newBook;
                 CreateBookCommandValidate validations = new CreateBookCommandValidate(); //validasyon işlemi yapıldı ve istenilen bilgiler korundu ve sistem hataları fırlattı
                 validations.ValidateAndThrow(command); //validasyon hatasını yakaamaya yarayan method hatayı bulur ve fırlatır
@@ -95,12 +94,7 @@ namespace WebApı.Controllers
                 //}
                
                 
-            }
-            catch(Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-            
+           
 
             return Ok();
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LkFygWSmUbGgUof3xVzPGaZBQtSOJkER1Yq9xubqaUrYw8BuVtwBPrEeGwigfrm1b+iZuNQgA/fLeKm5asCVBQ==",
+  "dgSpecHash": "YZdChJm84WfCcECkKEz2fw8tlQUKp5IHkV6nkI/5Q8aeWRG7xUlG9HNzwXuKPKiUZ36C1xbHBKD2XSWc4tK5/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACER\\Desktop\\bookstore\\WebApı\\WebApı\\WebApı.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
